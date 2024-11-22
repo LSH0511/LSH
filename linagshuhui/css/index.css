@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    padding-top: 64px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(51, 51, 51, .08);
+    background-color: #fff;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    padding: 20px 15px;
+}
+
+.main {
+    width: 86%;
+    margin: 0 auto;
+    background-color: #fefefe;
+}
+.title{
+    padding: 10px 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.avatar {
+    width: 30%;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar img {
+    width: 120px;
+    height: 154px;
+}
+
+.detail {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.detail li {
+    padding: 3px 0;
+    font-weight: 600;
+}
+
+.detail li span {
+    padding-left: 10px;
+    font-weight: normal;
+    color: #aa96da;
+}
+.contact{
+    margin: 15px auto;
+}
+.contact .list{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    background-color: #e8e6e6;
+    border-radius: 20px;
+    padding: 32px 0;
+}
+.contact img{
+    width: 72px;
+}
+.contact .text{
+    margin-left: 20px;
+}
+.contact .text p{
+    padding: 3px 0;
+}
+.contact .text p:first-child{
+    font-size: 14px;
+}
+.contact .text p:last-child{
+    font-weight: bold;
+}
+.portfolio video{
+    width: 100%;
+    display: block;
+}
+.portfolio h4{
+    padding: 10px 0;
+    color: #f38181;
+}
+.web{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.web .video{
+    margin-bottom: 15px;
+    width: 48%;
+}
+.design{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.design .img{
+    width: 18%;
+    cursor: pointer;
+    transition: all .3s;
+    overflow: hidden;
+}
+.design .img img{
+    transition: all .3s;
+}
+.design .img:hover img{
+    transform: scale(1.2);
+}
+.ae .video{
+    margin: 15px 0;
+    border: 1px solid #ccc;
+}
+.footer {
+    background-color: #cecece;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
